@@ -44,6 +44,9 @@ public:
 
 	// Peek/Top operation: Retrieve the value of the topmost element without removing it
 	void peek() {
+		if (top == NULL) {
+			cout << "List is empty." << endl;
+		}
 
 	}
 };
